@@ -2,3 +2,13 @@ body {
     background-color: #f0f0f0; /* Achtergrondkleur */
     color: #333; /* Tekstkleur */
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
